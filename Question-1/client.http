@@ -1,0 +1,20 @@
+GET http://localhost:3000/categories/Laptop/products?top=10&minPrice=1&maxPrice=10000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE3MDgxNzAzLCJpYXQiOjE3MTcwODE0MDMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjJhODBlOWYyLTJkZjAtNDI0Ni05OGZlLThlY2M4MjQ4OGJmMCIsInN1YiI6InZlbm5hbXJhbXJlZGR5MDQxM0BnbWFpbC5jb20ifSwiY29tcGFueU5hbWUiOiJnb01hcnQiLCJjbGllbnRJRCI6IjJhODBlOWYyLTJkZjAtNDI0Ni05OGZlLThlY2M4MjQ4OGJmMCIsImNsaWVudFNlY3JldCI6Im9PaXVpdW1FV2VVSklhQm4iLCJvd25lck5hbWUiOiJSYW0gUmVkZHkgVmVubmFtIiwib3duZXJFbWFpbCI6InZlbm5hbXJhbXJlZGR5MDQxM0BnbWFpbC5jb20iLCJyb2xsTm8iOiIyMWJkMWEwNTN6In0.6Rlhn6BzJ52oAyxiZwObW3uxb49e3DcxXCLoYuQ8h9Y
+
+
+###
+GET http://localhost:3000/categories/Laptop/products/e7b700e28adad433f6628ac3016d45ac?top=10&minPrice=1&maxPrice=10000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE3MDgyNjM2LCJpYXQiOjE3MTcwODIzMzYsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjJhODBlOWYyLTJkZjAtNDI0Ni05OGZlLThlY2M4MjQ4OGJmMCIsInN1YiI6InZlbm5hbXJhbXJlZGR5MDQxM0BnbWFpbC5jb20ifSwiY29tcGFueU5hbWUiOiJnb01hcnQiLCJjbGllbnRJRCI6IjJhODBlOWYyLTJkZjAtNDI0Ni05OGZlLThlY2M4MjQ4OGJmMCIsImNsaWVudFNlY3JldCI6Im9PaXVpdW1FV2VVSklhQm4iLCJvd25lck5hbWUiOiJSYW0gUmVkZHkgVmVubmFtIiwib3duZXJFbWFpbCI6InZlbm5hbXJhbXJlZGR5MDQxM0BnbWFpbC5jb20iLCJyb2xsTm8iOiIyMWJkMWEwNTN6In0.MZ4fng8Vj3dPkO8dBXia0t13k2aYz6ycJIbfKzFs5Tk
+
+###
+POST http://20.244.56.144/test/auth
+Content-Type: application/json
+
+{
+  "companyName": "goMart",
+  "clientID": "2a80e9f2-2df0-4246-98fe-8ecc82488bf0",
+  "clientSecret": "oOiuiumEWeUJIaBn",
+  "ownerName": "Ram Reddy Vennam",
+  "ownerEmail": "vennamramreddy0413@gmail.com",
+  "rollNo": "21bd1a053z"
+}
